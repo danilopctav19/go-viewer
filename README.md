@@ -31,9 +31,11 @@ go build viewer.go
 
 ## Uso
 
+**(Para Windows, troque o ./viewer por viewer.exe)**
+
 **Visualizar arquivo em texto**
 
-Exemplo:
+Exemplo (Linux):
 
 ```bash
 ./viewer arquivo.txt
@@ -55,6 +57,7 @@ Exemplos:
 ./viewer arquivo.bin --hex
 ./viewer arquivo.exe --hex
 ```
+
 **Buscar em binário**
 
 ```bash
